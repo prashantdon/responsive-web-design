@@ -258,42 +258,47 @@ a{
     justify-content: center;
     font-size: 50px;
     font-weight: bolder;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 15%;
+    /* position: sticky; */
+    top: 0;
+    
 }
 .newarrivals1{
-    margin-left: 3px;
+    margin-left: 10%;
     margin-top: 40px;
     font-size: 30px;
     border-bottom: 0.7px solid #f46e79;
-    width: 10%;
+    width: 25%;
+}
+.newarrivals1-1{
+    margin-left: 10%;
+    margin-top: 40px;
+    font-size: 30px;
+    border-bottom: 0.7px solid #f46e79;
+    width: 25%;
 }
 .sidebar{
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     height: 690px;
-    width: 80%;
-    display: flex;
+    width: 54% ;
+    /* display: flex ; */
     margin-top: 25px;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+    margin-left: 10%;  
 }
 .category{
-  position: sticky;
-  height: 100%;
-  width: 500px;
-  margin-left: 5px;
-  top: 50px;
-  bottom: 50px;
-  margin-left: 10px;
-  top: 0%;
-
+  /* position: sticky; */
+  height: 40%;
+  width: 30%;
+  /* top: 0%; */
+}
+.deal2-tabview{
+  display: none;
 }
 .head{
     /* text-align: center; */
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 25px;
 }
@@ -351,6 +356,8 @@ p{
 }
 .testimonial{
   
+  width: 48%;
+  margin-right: 3px;
 }
 .test{
     border-bottom: 1px solid #f46e79;
@@ -390,14 +397,15 @@ p{
 
 .show{
     height: 700px;
-    width: 2000px;
+    width:px;
     /* background-color: yellow; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 25px;
     row-gap: 15px;
-    margin-left: 5px;
+    margin-left:26.5%;
     margin-top: 35px;
+    margin-right: 10%;
 }
 .clothes1{
     height: 80px;
@@ -430,7 +438,7 @@ p{
     font-size: 30px;
     text-align: left;
     color: black;
-    margin-left: 50%;
+    margin-left: 27%;
     margin-top: 80px;
     font-weight: bold;
     /* background-color: yellow; */
@@ -560,7 +568,7 @@ p{
     height: 500px;
     /* background-color: yellow; */
     margin-top: 820px;
-    margin-left:22.5%;
+    margin-left:10%;
     margin-right: 10%;
     display: flex;
 }
@@ -574,7 +582,7 @@ p{
     align-items: center;
 }
 .cta-banner{
-    width: 80%;
+    width: 100%;
     height: 620px;
     margin-top: 15%;
 }
@@ -628,7 +636,21 @@ p{
     width: 100%;
     border: none;
     border-radius: 7px;
+    margin-right: 5px;
 }
+.blog--fashion{
+    font-size: 2rem;
+    color: rgb(237, 126, 145);
+}
+.blog--fashion1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.blog--fashion2{
+    font-size: 1.5rem;
+    
+}
+
 .footer{
     height: 350px;
     background-color: black;
@@ -696,40 +718,43 @@ p{
     margin-top: 19px; 
     text-align: center;
 }
-.menu__togglebar{
-    position: fixed;
-    bottom: 0;
+.menu__toggle{
+    
     display: none;
-    justify-content: space-around;
-    width: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    left: 25%;
+    
+}
+.deal-1{
+    display: none;
 }
 @media screen and (max-width:850px){
     .header{
         margin: 1% 2%;
-        width: 60%;
+        width: 55%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
     }
     .mainheading{
         display: flex;
         justify-content: center;
         margin-left: 0%;
-        width: 55%;
+        width: 60%;
         box-shadow: 0px 3px rgba(0, 0, 0, 0.001);
         bottom: 10px;
     }
     .freeshipping{
-        font-size: 12px;
+        font-size: 11px;
     }
     .aircommerce{
-        font-size: 30px;
+        font-size: 22px;
         font-weight: bold;
         margin-top: 10px;
+       
        
     }
     .inputbox{
         height: 30px;
-        width: 168px;
+        width: 128px;
         font-size: 12px;   
         
      }
@@ -747,12 +772,13 @@ p{
     }
     .img1{
         height: 300px;
-        width: 510px;
+        width: 10%;
     }
     .content{
-        width: 50%;
+        width: 46%;
         margin-left: 2%;
         margin-right: 2%;
+        margin-top: 2%;
     }
     .img1{
         width: 115%;
@@ -793,14 +819,20 @@ p{
         display: none;
     }
     .frock{
-        width: 50%;
-        margin-left: ;
+        width:40%;
+        margin-left: 20px;
+    }
+    .frock-1{
+        width: 40%;
     }
      .dress{
         font-size: 13px;
-        width: 100%;
-        margin-left: 3%;
-        justify-content: space-around;
+        width: 55%;
+        margin-left: 1%;
+        justify-content: space-evenly;
+     }
+     .dress2{
+            width: 40%;
      }
      a{
         font-size: 13px;
@@ -809,6 +841,7 @@ p{
      .frock1{
         height: 40px;
         width:50%;
+        margin-left: 1%;
         
      }
      .frock2{
@@ -816,57 +849,111 @@ p{
      }
      .newarrivals{
         display: flex;
-        justify-content: center;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bolder;
+        width:50vw;
+        margin-left: 0;
+        justify-content: space-between;
     }
     .newarrivals1{
-        margin-left: 10px;
         margin-top: 40px;
         font-size: 20px;
-        border-bottom: 0.5px solid black;
-        width: 30%;
+        border-bottom: 0.5px solid rgb(207, 93, 112);
+        width:70%;
     }
+    .newarrivals1-1{ display: none;}
     
-
-.deal2{
-    /* background-color: yellow; */
-    height: 1vh;
-    margin-bottom:25px ;
-    border: 1px solid rgb(227, 219, 219);
-    border-radius: 7px;
+.deal{
     display: none;
 }
-.newproducts{
+.deal-1{
+    display: flex;
+}
+.deal2{
+    /* background-color: yellow; */
+    height:100%;
+    width: 100%;
+    border: 1px solid rgb(227, 219, 219);
+    border-radius: 7px;
+    display: flex;
+    margin-bottom: 500%;
+    display: none;
+}
+.deal2-tabview{
+    display: flex;
     height: 100%;
-    width: 62%;
+    width: 65%;
+    margin-top: %;
+    position: static;
+}
+.time3{
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(217, 217, 196);
+    width: 65px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.time2{
+   text-decoration: none;
+}
+.deal-1{
+    width: 30%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.dealimg1{
+    height: 40vh;
+    width: 30vw;
+   
+}
+.deal-content1{
+    width: 40%;
+    height: 10%;
+  
+}
+
+.newproducts{
+    height: 50%;
+    width: 40%;
     margin-left: 2%;
     /* background-color: yellow; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: auto;
     column-gap: 20px;
     row-gap:10px;
     align-items: center;
     
 }
+.newp{
+    height: 300px;
+    /* background-color: blue; */
+    border: 1px solid rgb(205, 199, 199);
+}
+
 .deal-new{
     width: 30%;
+    margin-top: 105%;
+    margin-left: 50px;
+    font-size: 2rem;
 }
 .deal{
-    display: none;
+    display:none;
+    
 }
 .newp{
     margin-top: 25px;
     height: 100%;
-    width: 200px;
+    width: 60%;
     /* background-color: blue; */
     border: 1px solid rgb(205, 199, 199);
 }
-.newpimg{
-    height: 80px;
-    margin-left: px;
-   
-}
+
 .deal{
     font-size: 30px;
     color: black;
@@ -877,21 +964,228 @@ p{
     border-bottom: 1px solid rgb(239, 236, 236);
 }
 .show{
-    height: 900px;
-    width: 200px;
+    height: 9px;
+    width: 55%;
     /* background-color: yellow; */
     display: grid;
-    /* grid-template-rows: auto; */
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,1fr);
     column-gap: 25px;
     row-gap: 15px;
     margin-left: 5px;
-    margin-top: 35px;
+    margin-top: px;
+    margin-bottom: 80%;
+    position: absolute;
+}
+.show--parent{
+    width: 60%;
+}
+.newproducts{
+    height: 200px;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    /* background-color: yellow; */
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 30px;
+    row-gap:30px;
+    width: 50%;
+    
+}
+.newpimg{
+    height: 15vh;
+    width: 40vw;
+   margin-left: 60px;
+}
+.newp{
+    width: 52vw;
+}
+.clothes1{
+    height: 50px;
+    margin-top: 25px;
+}
+.new1{
+    display: flex;
+}
+.new2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 22px;
+}
+.cloth{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.womens-banner{
+    width: 200px;
+    height: 10vh;
+    margin-right: 200px;
+    margin-left: 0;
+}
+.testimonial{
+    
+    width: 45%;
+    margin-top: 90%;
+  }
+  .summer-collection1{
+    /* background-color: blue; */
+    height: 300px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: px;
+}
+.cta-banner{
+    width: 150%;
+    height: 25vh;
+    /* margin-right: 25px; */
+    margin-left: 25px; 
+} 
+.summer-collection{
+    margin-top: 520%;
+    display: block;
+    margin-left:5vw;
+}
+.summer-collection2{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    /* background-color: yellow; */
 }
 .menu__toggle{
-    width: 100%;
-        left: 0;
-        display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(246, 246, 245);
+    height: 5vh;
+    width: 50vw;
+    margin-left: 3vw;
+    box-shadow: 2px 1px  rgb(180, 176, 176);
+    /* border: 1px solid black; */
+    align-items: center;
+    position: sticky;
+    bottom: 0;
 }
+
+.blog{
+    margin-top: 80%;
+}
+.services{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(191, 175, 175);
+    width: 100px;
+    margin-left: 15px;
+    height: 20%;
+}
+.services1{
+    width: 57%;
+    height: 20%;
+    margin-left: 5px;
+}
+.fa-ship{
+    color: pink;
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+.services2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.fa-rocket,.fa-phone,.fa-reply,.fa-money{
+    color: rgb(253, 168, 182);
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.blog{
+    height: 10%;
+    width: 56%;
+    margin-top: 115%;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blogimg{
+    height: 40%;
+    width: 90%;
+}
+.blog--fashion{
+    font-size: 1.5rem;
+    color: rgb(237, 126, 145);
+}
+.blog--fashion1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blog--fashion2{
+    font-size: 0.9rem;
+    
+}
+.footer{
+    height: 50%;
+    width: 58%;
+    margin-left: 0;
+}
+.footer1{
+    height: 50%;
+    width: 58%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer3{
+    height: 50%;
+    width: 60%;
+}
+.fashion{
+    font-size: .9rem;
+    margin-left: 5px;
+    /* text-align: center; */
+    /* background-color: yellow; */
+    width: 20vw;
+}
+
+.fashion1{
+    font-size:1rem;
+}
+.brand{
+    margin-left: 5px;
+}
+.brand-directory{
+    margin-left: 0;
+}
+.footer-popular{
+    color: white;
+    padding-top: 60px;
+    
+   }
+   
+   .popular{
+       color: rgb(94, 92, 92);
+       font-size: 15px;
+       margin-left: 5px;
+       margin-top: 19px;
+   }
+   
+   .img-footer{
+       margin-left: 3%;
+       height: 40px;
+       margin-top: 25px;
+   }
+   .popular1{
+       color: rgb(94, 92, 92);
+       font-size: 20px;
+       margin-left: 20px;
+       margin-top: 19px; 
+       text-align: center;
+   }
+
 }
 
 /* code for phone view */
@@ -944,14 +1238,20 @@ display: none;
     display: none;
 }
 .menu__toggle{
-    height: 2%;
-    width: 22%;
-   box-shadow: 5px 5px 5px rgb(233, 187, 187);
-   background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color:rgb(246, 246, 245);
+    height: 6vh;
+    width: 98vw;
+    margin-left: 1vw;
+    box-shadow: 2px 1px  rgb(180, 176, 176);
+    /* border: 1px solid black; */
     align-items: center;
     position: sticky;
-    bottom: 50%;
-    }
+    bottom: 0;
+    cursor: pointer;
+}
+.summer-collection1{
+    
+}
 }
