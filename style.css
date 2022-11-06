@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    
 }
 
 .header{
@@ -271,10 +272,10 @@ a{
     border-bottom: 0.7px solid #f46e79;
     width: 25%;
 }
-.newarrivals1-1{
+.newarrivals2{
     margin-left: 10%;
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 0.7px solid #f46e79;
     width: 25%;
 }
@@ -727,26 +728,30 @@ p{
     display: none;
 }
 @media screen and (max-width:850px){
+    
+    
     .header{
         margin: 1% 2%;
-        width: 55%;
+        width: 85%;
         justify-content: space-between;
         align-items: center;
-        font-size: 20px;
+       
     }
     .mainheading{
         display: flex;
         justify-content: center;
         margin-left: 0%;
-        width: 60%;
+        width: 87%;
         box-shadow: 0px 3px rgba(0, 0, 0, 0.001);
         bottom: 10px;
+       
     }
     .freeshipping{
-        font-size: 11px;
+        font-size: 15px; 
     }
+    
     .aircommerce{
-        font-size: 22px;
+        font-size: 35px;
         font-weight: bold;
         margin-top: 10px;
        
@@ -754,7 +759,7 @@ p{
     }
     .inputbox{
         height: 30px;
-        width: 128px;
+        width: px;
         font-size: 12px;   
         
      }
@@ -768,17 +773,19 @@ p{
         display: none;
     }
     .lang{
-        font-size: 10px;
+        font-size: 15px;
     }
     .img1{
         height: 300px;
         width: 10%;
+        
     }
     .content{
-        width: 46%;
+        width: 71%;
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 2%;
+        
     }
     .img1{
         width: 115%;
@@ -787,8 +794,9 @@ p{
         position: absolute;
         margin-top: 20px;
         margin-left: 40px;
-        width: 150%;
-        font-size: 1rem;
+        width: 70%;
+        font-size: 1.5rem;
+       
     }
     
     .icon2{
@@ -796,7 +804,7 @@ p{
     }
     .trending-item{
         color: #ea99a0;
-        font-size: 20px;
+        font-size: 25px;
     }
     .womens-latest{
       font-size: 20px;
@@ -804,7 +812,7 @@ p{
       margin-top: 25px;
     }
     .price{
-    font-size: 20px;
+    font-size: 25px;
     }
     .shop-now-button{
       background-color: #ea99a0;
@@ -819,17 +827,18 @@ p{
         display: none;
     }
     .frock{
-        width:40%;
+        width:80%;
         margin-left: 20px;
+        margin-right: 20px;
     }
     .frock-1{
-        width: 40%;
+        width: 80%;
     }
      .dress{
         font-size: 13px;
-        width: 55%;
+        width: 82%;
         margin-left: 1%;
-        justify-content: space-evenly;
+        justify-content: space-between;
      }
      .dress2{
             width: 40%;
@@ -851,7 +860,7 @@ p{
         display: flex;
         font-size: 20px;
         font-weight: bolder;
-        width:50vw;
+        width:80vw;
         margin-left: 0;
         justify-content: space-between;
     }
@@ -861,7 +870,7 @@ p{
         border-bottom: 0.5px solid rgb(207, 93, 112);
         width:70%;
     }
-    .newarrivals1-1{ display: none;}
+    .newarrivals2{ display: none;}
     
 .deal{
     display: none;
@@ -882,7 +891,7 @@ p{
 .deal2-tabview{
     display: flex;
     height: 100%;
-    width: 65%;
+    width: 105%;
     margin-top: %;
     position: static;
 }
@@ -909,7 +918,7 @@ p{
 }
 .dealimg1{
     height: 40vh;
-    width: 30vw;
+    width: 42vw;
    
 }
 .deal-content1{
@@ -920,8 +929,8 @@ p{
 
 .newproducts{
     height: 50%;
-    width: 40%;
-    margin-left: 2%;
+    width: 50%;
+    margin-left: 5%;
     /* background-color: yellow; */
     display: grid;
     grid-template-columns: auto;
@@ -939,7 +948,7 @@ p{
 .deal-new{
     width: 30%;
     margin-top: 105%;
-    margin-left: 50px;
+    margin-left: 170px;
     font-size: 2rem;
 }
 .deal{
@@ -965,14 +974,14 @@ p{
 }
 .show{
     height: 9px;
-    width: 55%;
+    width: 84%;
     /* background-color: yellow; */
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(2,1fr);
     column-gap: 25px;
     row-gap: 15px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: px;
     margin-bottom: 80%;
     position: absolute;
@@ -982,27 +991,27 @@ p{
 }
 .newproducts{
     height: 200px;
-    margin-left: 2.5%;
-    margin-top: 1%;
+    margin-left: 20%;
+    margin-top: %;
     /* background-color: yellow; */
     margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     column-gap: 30px;
     row-gap:30px;
-    width: 50%;
+    width: 30%;
     
 }
 .newpimg{
     height: 15vh;
-    width: 40vw;
-   margin-left: 60px;
+    width: 30vw;
+   margin-left: 90px;
 }
 .newp{
     width: 52vw;
 }
 .clothes1{
-    height: 50px;
+    height: 60px;
     margin-top: 25px;
 }
 .new1{
@@ -1020,32 +1029,32 @@ p{
 
 
 .womens-banner{
-    width: 200px;
-    height: 10vh;
-    margin-right: 200px;
-    margin-left: 0;
+    width: 100%;
+    height: 15vh;
 }
 .testimonial{
     
-    width: 45%;
+    width: 85%;
     margin-top: 90%;
+    margin-left: 3%;
   }
   .summer-collection1{
     /* background-color: blue; */
     height: 300px;
-    width: 50%;
+    width: 90%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: px;
+    
 }
 .cta-banner{
     width: 150%;
-    height: 25vh;
+    height: 18vh;
     /* margin-right: 25px; */
-    margin-left: 25px; 
+ 
 } 
+
 .summer-collection{
     margin-top: 520%;
     display: block;
@@ -1053,8 +1062,8 @@ p{
 }
 .summer-collection2{
     position: absolute;
-    width: 70%;
-    height: 10%;
+    width: 50%;
+    height: 30%;
     /* background-color: yellow; */
 }
 .menu__toggle{
@@ -1062,10 +1071,10 @@ p{
     justify-content: space-evenly;
     background-color:rgb(246, 246, 245);
     height: 5vh;
-    width: 50vw;
+    width: 80vw;
     margin-left: 3vw;
     box-shadow: 2px 1px  rgb(180, 176, 176);
-    /* border: 1px solid black; */
+    border: 1px solid black;
     align-items: center;
     position: sticky;
     bottom: 0;
@@ -1083,9 +1092,9 @@ p{
     height: 20%;
 }
 .services1{
-    width: 57%;
+    width: 85%;
     height: 20%;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .fa-ship{
     color: pink;
@@ -1105,23 +1114,23 @@ p{
     
 }
 .blog{
-    height: 10%;
-    width: 56%;
-    margin-top: 115%;
+    height: 20%;
+    width: 86%;
+    margin-top: 120%;
     margin-left: 15px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 .blogimg{
-    height: 40%;
+    height: 60%;
     width: 90%;
 }
 .blog--fashion{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgb(237, 126, 145);
 }
 .blog--fashion1{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .blog--fashion2{
@@ -1130,18 +1139,20 @@ p{
 }
 .footer{
     height: 50%;
-    width: 58%;
-    margin-left: 0;
+    width: 85%;
+    margin-left: 5px;
 }
 .footer1{
     height: 50%;
-    width: 58%;
+    width: 85%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-left: 5px;
 }
 .footer3{
     height: 50%;
-    width: 60%;
+    width: 85%;
+    margin-left: 5px;
 }
 .fashion{
     font-size: .9rem;
@@ -1210,7 +1221,7 @@ display: none;
 .searchbox{
     position:absolute;
     top: 16%;
-    width: 80%px;
+    width: 100%px;
 }
 .aircommerce{
     font-size: 2.5rem;
@@ -1229,9 +1240,8 @@ display: none;
     height: 80%;
 }
 .frock{
-    width: 80%;
-    margin-left: %;
-    height: %;
+    width: 90%;
+    
     align-items: center;
 }
 .frock-1{
@@ -1251,7 +1261,155 @@ display: none;
     bottom: 0;
     cursor: pointer;
 }
-.summer-collection1{
+.deal-1{
+    display: none;
+}
+.deal2-tabview{
+    width: 100%;
+    display: none;
+}
+.newarrivals{
+    width: 170%;
+}
+.show{
+    width: 55%;
+    display: block;
+}
+.new1{
+    width: 160%;
+    margin-left: 15px;
+}
+.new2{
+    font-size: 20px;
+}
+.newpimg{
+    margin-left: 30px;
+    width: 70%;
+}
+.deal-new{
+    margin-top: 350%;
+    font-size: 20px;
+    margin-left: 20%;
+    width: 50%;
+}
+.summer-collection{
+    margin-top: 880%;
+}
+.cta-banner{
+    height: 70%;
+    width: 120%;
+    margin-left: 20%;
+}
+.womens-banner{
+    width: 100%;
+}
+
+.services1{
+    width: 100%;
+}
+.fa-ship{
+    margin-left: 5px;
+}
+.services{
+    font-size: 20px;
+    width: 50%;
+}
+.services2{
+    font-size: 20px;
+}
+.fa-rocket,.fa-phone,.fa-reply,.fa-money{
+    color: rgb(253, 168, 182);
+    margin-left: 5px;
+    margin-top: 30px;
     
 }
+.blog{
+    height: 20%;
+    width: 95%;
+    margin-top: 230%;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blogimg{
+    height: 60%;
+    width: 90%;
+    margin-right: 2px;
+    margin-top: 25%;
+}
+.blog--fashion{
+    font-size: 1.5rem;
+    color: rgb(237, 126, 145);
+}
+.blog--fashion1{
+    font-size: .8rem;
+    font-weight: bold;
+}
+.blog--fashion2{
+    font-size: 0.9rem;
+    
+}
+.footer{
+    height: 50%;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20%;
+}
+.footer1{
+    height: 50%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 5px;
+}
+.footer3{
+    height: 50%;
+    width: 100%;
+    margin-left: 5px;
+}
+.fashion{
+    font-size: .9rem;
+    margin-left: 5px;
+    /* text-align: center; */
+    /* background-color: yellow; */
+    width: 20vw;
+}
+
+.fashion1{
+    font-size:1rem;
+}
+.brand{
+    margin-left: 5px;
+}
+.brand-directory{
+    margin-left: 0;
+}
+.footer-popular{
+    color: white;
+    padding-top: 60px;
+    
+   }
+   
+   .popular{
+       color: rgb(94, 92, 92);
+       font-size: 15px;
+       margin-left: 5px;
+       margin-top: 19px;
+   }
+   
+   .img-footer{
+       margin-left: 4%;
+       height: 40px;
+       width: 90%;
+       margin-top: px;
+   }
+   .popular1{
+       color: rgb(94, 92, 92);
+       font-size: 20px;
+       margin-left: 20px;
+       margin-top: 19px; 
+       text-align: center;
+   }
+
+
 }
